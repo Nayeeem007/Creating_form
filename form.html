@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a pitha form</title>
+    <style>
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
+        #name{
+            display: inline-block;
+            padding: 2px;
+            margin: 5px;
+            border: 5px double purple;
+             width:15%;
+             border-radius: 15px;
+             
+        }
+        #Email{
+            display: inline;
+            margin: 5px;
+            border: 5px double purple;
+            width: 15%;
+            border-radius: 15px;
+        }
+        #Phone{
+            display: inline;
+            margin: 5px;
+            border: 5px double purple;
+            width: 15%;
+            border-radius: 15px;
+        }
+        /* legend{
+            border-radius: 10px; */
+        
+            margin: 5px;
+            /*   fieldset{
+                padding: 100px; 
+        } */
+     </style>
+</head>
+<body>
+    <h2>Welcome to Nayeem's Pitha Ghor</h2>
+    <form>
+        <label for=" name">Your name:
+            <input id="name" type="text" placeholder = "Your name">
+        </label>
+        <br>
+        <label for=" Email">Your Email        
+            <input id="Email" type="email" placeholder = "Your Email">  
+        </label><br>
+        <label for="Phone ">Mobile number
+            <input type="number" name="Mobile number" id="Phone" placeholder="Phone number">
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="Chitoi"> 
+                 <input type="radio" name="Chitoi" id="Chitoi"> Chitoi   
+                </label><br>
+            <label for="vaapa"> 
+                 <input type="radio" name="Vaapa" id="Vaapa"> Vaapa   
+                </label><br>
+            <label for="Chitoi"> 
+                 <input type="radio" name="Patishapta" id="PAtishapta"> patishapta   
+                </label><br>    
+            <label for=" puli"> 
+                 <input type="radio" name="puli" id="puli"> puli       
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pick vortas</legend>
+            <label for="Shorisha">
+                <input type="checkbox" name="Shorisha" id="Shorisha">Shorisha
+            </label><br>
+            <label for="shutki">
+                <input type="checkbox" name="shutki" id="shutki">shutki
+            </label><br>
+            <label for="daal">
+                <input type="checkbox" name="daal" id="daal">daal
+            </label><br>
+            <label for="begun">
+                <input type="checkbox" name="begun" id="begun">begun
+                </label><br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <textarea name=" " id="" cols="60" rows="15"> </textarea>
+        </fieldset>
+        <input type="reset" name="" id="">
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
